@@ -1,0 +1,208 @@
+body
+{
+    background-image: linear-gradient(to right, #c7a629, #cd774c, #a65d67, #6b5164, #404040);
+    width: 100%;
+    height: 100vh;
+    
+}
+
+.js-canvas
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    cursor: url("../images/craie.png"), auto;
+}
+
+.js-clock
+{
+    position: absolute;
+    top: 3%;
+    left: 85%;
+}
+
+.js-door
+{
+    position: absolute;
+    top: 100%;
+    left: 2%;
+    transform: translateY(-100%)
+}
+
+.js-window
+{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.poster
+{
+    position: absolute;
+    top: 40%;
+    left: 84%;
+    width: 190px;
+    height: 100px;
+    padding-top: 10px;
+}
+
+.color
+{
+    position: relative;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.red {background-color: #eb4d4b; left: 14px;}
+.blue {background-color: #7ed6df; left: 24px;}
+.yellow {background-color: #f9ca24; left: 34px;}
+.green {background-color: #badc58; left: 44px;}
+.white {background-color: white; left: 54px;}
+.logo {position: relative; top: 20px; left: 40px; cursor: pointer;}
+.erase {cursor: url("../images/cursorerase.png"), auto;}
+.eraser{ position: relative; left: 37px; top: 20px;}
+.eraser:hover{cursor:pointer;}
+
+
+@media screen and (max-width: 1280px)
+{
+    .js-canvas
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 600px;
+    height: 300px;
+    transform: translateX(-50%) translateY(-50%);
+    cursor: url("../images/craie.png"), auto;
+}
+
+.js-clock
+{
+    position: absolute;
+    top: 3%;
+    left: 85%;
+    width: 100px;
+    height: 100px;
+}
+
+.js-door
+{
+    position: absolute;
+    top: 100%;
+    left: 2%;
+    transform: translateY(-100%);
+    width: 125px;
+    height: 250px;
+}
+
+.js-window
+{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    width: 300px;
+    height: 75px;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.poster
+{
+    position: absolute;
+    top: 40%;
+    left: 84%;
+    width: 190px;
+    height: 100px;
+    padding-top: 10px;
+}
+
+.color
+{
+    position: relative;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.eraser img
+{
+    width: 50px;
+}
+
+}
+
+@media all and (min-width: 800px) and (max-width: 1460px)
+{
+    .js-canvas
+    {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 600px;
+        height: 300px;
+        transform: translateX(-50%) translateY(-50%);
+        cursor: url("../images/craie.png"), auto;
+    }
+    
+    .js-clock
+    {
+        position: absolute;
+        top: 3%;
+        left: 85%;
+        width: 100px;
+        height: 100px;
+    }
+    
+    .js-door
+    {
+        position: absolute;
+        top: 100%;
+        left: 2%;
+        transform: translateY(-100%);
+        width: 125px;
+        height: 250px;
+    }
+    
+    .js-window
+    {
+        position: absolute;
+        top: 10%;
+        left: 50%;
+        width: 300px;
+        height: 75px;
+        transform: translateX(-50%) translateY(-50%);
+    }
+    
+    .poster
+    {
+        position: absolute;
+        top: 40%;
+        left: 84%;
+        width: 190px;
+        height: 100px;
+        padding-top: 10px;
+    }
+    
+    .color
+    {
+        position: relative;
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+    
+    .eraser img
+    {
+        width: 50px;
+    }
+}  
+
